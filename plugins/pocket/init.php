@@ -22,7 +22,7 @@ class Pocket extends Plugin {
 	function hook_article_button($line) {
 		$article_id = $line["id"];
 
-		$rv = "<img src=\"plugins/pocket/pocket.png\"
+		$rv = "<img src=\"plugins.local/pocket/pocket.png\"
 			class='tagsPic' style=\"cursor : pointer\"
 			onclick=\"shareArticleToPocket($article_id)\"
 			title='".__('Pocket')."'>";
